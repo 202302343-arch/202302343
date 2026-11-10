@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#FAF9F7">
+  <title>PORTFOLIO — Visual & UX Design</title>
+  <meta name="description" content="이야기를 그리는 일부터 경험을 설계하는 일까지. 그림책, 일러스트레이션, UI/UX 디자인 작업을 소개합니다.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#projects">작업으로 바로가기</a>
+<header class="header"><a class="wordmark" href="#" aria-label="포트폴리오 홈">DESIGN<span class="logo-dot"></span></a><nav class="desktop-nav" aria-label="주 메뉴"><a href="#projects">Projects <sup>03</sup></a><a href="#about">About</a><a href="assets/portfolio.pdf" download>PDF Download ↙</a></nav><button class="menu-toggle" aria-controls="menu" aria-expanded="false">Menu <span class="hamburger" aria-hidden="true"><i></i><i></i></span></button></header>
+<main>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-top"><span>VISUAL STORIES & DIGITAL EXPERIENCES</span><span>SELECTED PORTFOLIO / 01—03</span></div>
+  <div class="title-wrap"><h1 id="hero-title" aria-label="PORTFOLIO"><span aria-hidden="true">PO<span class="title-blur title-blur-soft">R</span><span class="title-blur title-blur-strong">T</span></span><span aria-hidden="true">FOL<span class="title-blur title-blur-soft">I</span><span class="title-blur title-blur-strong">O</span><span class="period">.</span></span></h1><a class="sticker sticker-one" href="#projects" data-category="picture">PICTURE BOOK <sup>01</sup></a><a class="sticker sticker-two" href="#projects" data-category="illustration">ILLUSTRATION <sup>02</sup></a><a class="sticker sticker-three" href="#projects" data-category="ux">UI/UX DESIGN <sup>03</sup></a><div class="hero-aside"><span class="small-label">A COLLECTION OF IDEAS,<br>MADE VISIBLE.</span><p>이야기를 그리는 일부터<br>경험을 설계하는 일까지.</p><a href="#projects" class="round-arrow" aria-label="작업 둘러보기">↓</a></div></div>
+  <div class="ai-question">
+    <form class="ai-question-form" aria-label="AI에게 물어보기">
+      <label class="visually-hidden" for="portfolio-question">포트폴리오에 대해 AI에게 질문하기</label>
+      <input id="portfolio-question" name="question" type="text" placeholder="작업에 대해 AI에게 물어보세요" maxlength="500" required aria-describedby="ai-question-note" autocomplete="off">
+      <button type="submit" aria-label="질문 보내기"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </form>
+    <p id="ai-question-note">AI 답변 기능은 준비 중입니다.</p>
+    <p class="ai-question-status" role="status" hidden></p>
+  </div>
+  <div class="hero-bottom"><p>그림과 디자인으로 만드는<br>작고 선명한 경험을 소개합니다.</p><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+</section>
+<section id="projects" class="projects" aria-labelledby="projects-title">
+  <div class="section-top"><h2 id="projects-title">SELECTED WORKS <sup>03</sup></h2><span class="small-label">IDEA → STORY → EXPERIENCE</span></div>
+  <div class="project-grid">
+    <button class="project project-book" data-project="book" data-type="picture" aria-label="냉장고 속 요정 프로젝트 보기"><img src="assets/portfolio-01.webp" alt="냉장고 속 요정 그림책의 펼친 책과 표지 목업" fetchpriority="high"><span class="project-shade"><span class="project-kind">01 / PICTURE BOOK & MOTION</span><span class="project-title">냉장고 속 요정</span><span class="project-caption">한 권의 그림책에서 움직이는 이야기로</span><span class="project-cta">프로젝트 보기 <span>↗</span></span></span></button>
+    <button class="project project-illustration" data-project="illustration" data-type="illustration" aria-label="딱풀리는 수학 1주년 일러스트레이션 보기"><img src="assets/portfolio-07.webp" alt="생일 케이크와 캐릭터를 그린 딱풀리는 수학 1주년 일러스트레이션" loading="lazy"><span class="project-shade"><span class="project-kind">02 / ILLUSTRATION</span><span class="project-title">축! 딱풀리는 수학 1주년</span><span class="project-caption">기념일의 즐거움을 담은 그림</span><span class="project-cta">프로젝트 보기 <span>↗</span></span></span></button>
+    <button class="project project-ux" data-project="ux" data-type="ux" aria-label="나여기 UI UX 리디자인 보기"><img src="assets/portfolio-09.webp" alt="파랑과 연두를 사용한 나여기 여행 기록 앱 리디자인" loading="lazy"><span class="project-shade"><span class="project-kind">03 / UI·UX REDESIGN</span><span class="project-title">나여기</span><span class="project-caption">여행의 순간을 기록하는 경험</span><span class="project-cta">프로젝트 보기 <span>↗</span></span></span></button>
+  </div>
+  <p class="image-note"><span>THREE PROJECTS. DIFFERENT PERSPECTIVES.</span><span>이미지를 선택하면 전체 작업을 볼 수 있습니다. ↗</span></p>
+</section>
+<section class="archive" id="archive" aria-labelledby="archive-title"><div class="archive-heading"><h2 id="archive-title">INDEX<sup>03</sup></h2><div class="filters" role="group" aria-label="작업 분야 필터"><button class="active" data-filter="all" aria-pressed="true">ALL <sup>3</sup></button><button data-filter="picture" aria-pressed="false">PICTURE BOOK</button><button data-filter="illustration" aria-pressed="false">ILLUSTRATION</button><button data-filter="ux" aria-pressed="false">UI/UX</button></div></div>
+  <div class="archive-labels" aria-hidden="true"><span>NO.</span><span>PROJECT</span><span>DISCIPLINE / PAGES</span><span></span></div>
+  <div class="archive-list"><button data-project="book" data-type="picture"><span class="row-number">01</span><span class="row-title">냉장고 속 요정</span><span class="row-meta">PICTURE BOOK · BOOK TRAILER <small>6 PAGES</small></span><span class="row-arrow">↗</span></button><button data-project="illustration" data-type="illustration"><span class="row-number">02</span><span class="row-title">축! 딱풀리는 수학 1주년</span><span class="row-meta">ILLUSTRATION · CLIENT WORK <small>2 PAGES</small></span><span class="row-arrow">↗</span></button><button data-project="ux" data-type="ux"><span class="row-number">03</span><span class="row-title">나여기</span><span class="row-meta">UI/UX · APP REDESIGN <small>7 PAGES</small></span><span class="row-arrow">↗</span></button></div>
+</section>
+<section class="about" id="about" aria-labelledby="about-title"><div class="about-label"><span class="small-label">BEHIND THE WORK</span><h2 id="about-title">Different forms.<br>One curiosity<span>.</span></h2></div><div class="about-copy"><span class="small-label">ABOUT THIS PORTFOLIO</span><p>이야기를 담는 그림,<br>생각을 전하는 디자인.</p><p class="about-description">그림책과 일러스트레이션, 디지털 화면까지.<br>서로 다른 형식 안에서 이야기를 표현하고<br>사용자의 경험을 고민한 작업을 모았습니다.</p><a class="pdf-button" href="assets/portfolio.pdf" download>포트폴리오 PDF 다운로드 <span>↙</span></a></div></section>
+</main>
+<footer><a class="wordmark" href="#">DESIGN<span class="logo-dot"></span></a><span>VISUAL DESIGN · ILLUSTRATION · UI/UX</span><a href="#">BACK TO TOP ↑</a></footer>
+<dialog id="menu" class="menu-dialog" aria-label="전체 메뉴"><div class="menu-head"><span class="wordmark">DESIGN<span class="logo-dot"></span></span><button class="menu-close">Close ×</button></div><nav aria-label="전체 메뉴"><a href="#projects">Projects <sup>03</sup><span>↗</span></a><a href="#archive">Index<span>↗</span></a><a href="#about">About<span>↗</span></a></nav><a class="menu-pdf" href="assets/portfolio.pdf" download>PDF Download ↙</a><p>VISUAL STORIES & DIGITAL EXPERIENCES</p></dialog>
+<dialog id="project-dialog" class="project-dialog" aria-labelledby="detail-title"><div class="detail-head"><span class="detail-label"></span><button class="detail-close" autofocus>닫기 ×</button></div><div class="detail-intro"><div><h2 id="detail-title"></h2><p id="detail-description"></p></div><a href="assets/portfolio.pdf" download>전체 PDF ↙</a></div><div class="detail-images"></div><div class="detail-bottom"><span class="detail-count"></span><button class="detail-close">작업 목록으로 돌아가기 ↗</button></div></dialog>
+</body></html>
